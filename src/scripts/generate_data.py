@@ -1,4 +1,5 @@
 # version 0.0.1
+# Script to collect demonstration data for UR5 robot grasping using Isaac Sim
 
 import sys
 import os
@@ -61,6 +62,7 @@ def main():
 
     print("Data collection finished. Closing simulation.")
     simulation_app.close()
+
 
 if __name__ == "__main__":
     main()
